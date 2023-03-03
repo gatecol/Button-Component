@@ -1,0 +1,110 @@
+.baseButton {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #E0E0E0;
+    color: #3F3F3F;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    transition: all .3s;
+}
+
+.baseButton:hover, .baseButton:focus {
+    cursor: pointer;
+    background-color: #AEAEAE;
+}
+
+/* Sizes */
+.sm {
+    padding: 6px 12px;
+}
+
+.md {
+    padding: 8px 16px;
+}
+
+.lg {
+    padding: 11px 22px;
+}
+
+/* Variant */
+.outline {
+    background-color: transparent;
+    border: 1px solid #3D5AFE;
+    color: #3D5AFE;
+}
+
+.outline:hover, .outline:focus {
+    background-color: rgba(41, 98, 255, 0.1);
+}
+
+.text {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    color: #3D5AFE;
+}
+
+.text:hover, .text:focus {
+    background-color: rgba(41, 98, 255, 0.1);
+}
+
+/* Disable shadow */
+.disableShadow, .disableShadow:hover, .disableShadow:focus {
+    box-shadow: none;
+}
+
+/* Disable */
+.disable, .disable:hover, .disable:focus {
+    background-color: #E0E0E0;
+    color: #9E9E9E;
+}
+
+.disableText, .disableText:hover, .disableText:focus {
+    background-color: transparent;
+    color: #9E9E9E;
+}
+
+/* Icon */
+.startIconStyle {
+    margin-right: 10px;
+}
+
+.endIconStyle {
+    margin-left: 10px;
+}
+
+/* Colors */
+.primary {
+    background-color: #2962FF;
+    color: #FFFFFF;
+}
+
+.primary:hover, .primary:focus {
+    background-color: #0039CB;
+    color: #FFFFFF;
+}
+
+.secondary {
+    background-color: #455A64;
+    color: #FFFFFF;
+}
+
+.secondary:hover, .secondary:focus {
+    background-color: #1C313A;
+    color: #FFFFFF;
+}
+
+.danger {
+    background-color: #D32F2F;
+    color: #FFFFFF;
+}
+
+.danger:hover, .danger:focus {
+    background-color: #9A0007;
+    color: #FFFFFF;
+}

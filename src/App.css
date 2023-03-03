@@ -1,0 +1,26 @@
+.app {
+    display: inline-flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.headline {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4F4F4F;
+    margin-bottom: 28px;
+}
+
+.buttonBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonBox > code {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #333333;
+}
