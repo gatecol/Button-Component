@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Button-component/static/css/main.e0769872.css",
-    "main.js": "/Button-component/static/js/main.474e7175.js",
-    "index.html": "/Button-component/index.html",
-    "main.e0769872.css.map": "/Button-component/static/css/main.e0769872.css.map",
-    "main.474e7175.js.map": "/Button-component/static/js/main.474e7175.js.map"
+    "main.css": "/Button-Component/static/css/main.e0769872.css",
+    "main.js": "/Button-Component/static/js/main.474e7175.js",
+    "index.html": "/Button-Component/index.html",
+    "main.e0769872.css.map": "/Button-Component/static/css/main.e0769872.css.map",
+    "main.474e7175.js.map": "/Button-Component/static/js/main.474e7175.js.map"
   },
   "entrypoints": [
     "static/css/main.e0769872.css",
